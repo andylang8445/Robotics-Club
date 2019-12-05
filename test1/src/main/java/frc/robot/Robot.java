@@ -93,7 +93,8 @@ public class Robot extends TimedRobot {
     _myBot_left.tankDrive(_left_value, _left_value);
     
     //Turn the ball motor on if the trigger is being pushed
-    if(_myBot_joystick.getTrigger() == true) _myBot_ball.set(1);
+    if(_myBot_joystick.getTrigger() == true)
+      _myBot_ball.set(1);
 
   }
 }
