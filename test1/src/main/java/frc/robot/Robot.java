@@ -39,60 +39,54 @@ public class Robot extends TimedRobot {
     
     //Everything below here is to control the motors
 
-    if(_myBot_joystick.getY() > 0 && _myBot_joystick.getX() > 0){ //If the stick is in the upper right quadrent
+    if(_myBot_joystick.getY() > 0){ //If the stick is in the upper right quadrent
+      if(_myBot_joystick.getX() > 0){
+        //right motor is the joysticks y minus its x, making it slow down
+        _right_value = _myBot_joystick.getY() - _myBot_joystick.getX();
 
-      //right motor is the joysticks y minus its x, making it slow down
-      _right_value = _myBot_joystick.getY() - _myBot_joystick.getX();
+        //left motor is the joysticks y
+        _left_value = _myBot_joystick.getY();
 
-      //left motor is the joysticks y
-      _left_value = _myBot_joystick.getY();
+        //This enables another driving style, so that no matter what, if y is positive,
+        //the bot won't go backwards and vice versa
+        //if(_right_value < 0) _right_value = 0.0;
+      }
+      else if(_myBot_joystick.getX() < 0){
+        //right value is the y of the joystick
+        _right_value = _myBot_joystick.getY();
 
-      //This enables another driving style, so that no matter what, if y is positive,
-      //the bot won't go backwards and vice versa
-      //if(_right_value < 0) _right_value = 0.0;
-    
+        //the left motor is the y plus the x(where x is negative) making it slow down
+        _left_value = _myBot_joystick.getY() + _myBot_joystick.getX();
+
+        //This enables another driving style, so that no matter what, if y is positive,
+        //the bot won't go backwards and vice versa
+        //if(_left_value < 0) _right_value = 0.0;
+      }
     }
 
-    if(_myBot_joystick.getY() > 0 && _myBot_joystick.getX() < 0){ //If the stick is in the upper left quadrent
-    
-      //right value is the y of the joystick
-      _right_value = _myBot_joystick.getY();
+    else if(_myBot_joystick.getY() < 0){ //lower right quadrent
+      if(_myBot_joystick.getX() > 0){
+        //right motor is the y of the joystick plus the x(where x is positive) making it slow down
+        _right_value = _myBot_joystick.getY() + _myBot_joystick.getX();
 
-      //the left motor is the y plus the x(where x is negative) making it slow down
-      _left_value = _myBot_joystick.getY() + _myBot_joystick.getX();
+        //left motor is the y value
+        _left_value = _myBot_joystick.getY();
 
-      //This enables another driving style, so that no matter what, if y is positive,
-      //the bot won't go backwards and vice versa
-      //if(_left_value < 0) _right_value = 0.0;
-    
-    }
+        //This enables another driving style, so that no matter what, if y is positive,
+        //the bot won't go backwards and vice versa
+        //if(_left_value > 0) _right_value = 0.0;
+      }
+      else if(_myBot_joystick.getX() < 0){
+        //right motor is the y of the joystick
+        _right_value = _myBot_joystick.getY();
 
-    if(_myBot_joystick.getY() < 0 && _myBot_joystick.getX() > 0){ //lower right quadrent
-    
-      //right motor is the y of the joystick plus the x(where x is positive) making it slow down
-      _right_value = _myBot_joystick.getY() + _myBot_joystick.getX();
+        //left motor is the y of the joystick minus the x(where x is negative), resulting in it slowing down
+        _left_value = _myBot_joystick.getY() - _myBot_joystick.getX();
 
-      //left motor is the y value
-      _left_value = _myBot_joystick.getY();
-
-      //This enables another driving style, so that no matter what, if y is positive,
-      //the bot won't go backwards and vice versa
-      //if(_left_value > 0) _right_value = 0.0;
-
-    }
-
-    if(_myBot_joystick.getY() < 0 && _myBot_joystick.getX() < 0){ //Lower left quadrent
-    
-      //right motor is the y of the joystick
-      _right_value = _myBot_joystick.getY();
-
-      //left motor is the y of the joystick minus the x(where x is negative), resulting in it slowing down
-      _left_value = _myBot_joystick.getY() - _myBot_joystick.getX();
-
-      //This enables another driving style, so that no matter what, if y is positive,
-      //the bot won't go backwards and vice versa
-      //if(_left_value > 0) _right_value = 0.0;
-
+        //This enables another driving style, so that no matter what, if y is positive,
+        //the bot won't go backwards and vice versa
+        //if(_left_value > 0) _right_value = 0.0;
+      }
     }
 
     //Write the left and right values to the motors
