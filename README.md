@@ -13,3 +13,5 @@
  - https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/SpeedController.html
 <h4>DifferentialDrive:</h4>
  - https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/drive/DifferentialDrive.html
+<h4>FRC_Java_Programming.PDF:</h4>
+ - https://media.screensteps.com/exported/Wpilib/2078/144324/FRC_Java_Programming.pdf
