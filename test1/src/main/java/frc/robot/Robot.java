@@ -88,7 +88,6 @@ public class Robot extends TimedRobot {
         //if(_left_value > 0) _right_value = 0.0;
       }
     }
-
     //Write the left and right values to the motors
     _myBot_right.tankDrive(_right_value, _right_value);
     _myBot_left.tankDrive(_left_value, _left_value);
