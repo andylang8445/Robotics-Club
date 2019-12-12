@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src/main/java"/>
+	<classpathentry kind="lib" path="cameraserver.jar"/>
+	<classpathentry kind="lib" path="cscore.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="lib" path="ntcore.jar"/>
+	<classpathentry kind="lib" path="opencv-347.jar"/>
+	<classpathentry kind="lib" path="wpiHal.jar"/>
+	<classpathentry kind="lib" path="wpilibj.jar"/>
+	<classpathentry kind="lib" path="wpiutil.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
