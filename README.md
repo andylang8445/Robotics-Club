@@ -8,6 +8,7 @@
  - Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q<br>
  - Shooting mechanism: https://www.youtube.com/watch?v=VK07v7VBL-g<br>
  - Shield generator levening method: https://www.youtube.com/watch?v=jFQWt62Wa-0<br>
+ - Robot vision: https://www.youtube.com/watch?v=RO8t_V3rXrA<br>
 
 
 <h2>Useful Links</h2>
