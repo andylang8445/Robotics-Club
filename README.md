@@ -4,6 +4,7 @@
  <h2>Ri3D Useful links</h2>
  - Powecell intake method: https://www.youtube.com/watch?v=VPTkv4tlKIY<br>
  - Intake method problems: https://www.youtube.com/watch?v=9sdYtE1zLxY<br>
+ - Intake method problem fix: https://www.youtube.com/watch?v=hNr5d4FmT6w<br>
  - Spinning Wheel method: https://www.youtube.com/watch?v=Oc3DyrPWzas<br>
  - Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q<br>
  - Shooting mechanism: https://www.youtube.com/watch?v=VK07v7VBL-g<br>
