@@ -1,5 +1,11 @@
 # Robotics Club
 
+ <h2>Ri3D Useful links</h2>
+- Powecell intake method: https://www.youtube.com/watch?v=VPTkv4tlKIY
+- Spinning Wheel method: https://www.youtube.com/watch?v=Oc3DyrPWzas
+- Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q
+
+
 <h2>Useful Links</h2>
 <h4>Package Summary:</h4>
  - https://first.wpi.edu/FRC/roborio/release/docs/java/edu/wpi/first/wpilibj/package-summary.html
@@ -24,7 +30,3 @@
   <h4>Link 2:</h4>
     - https://www.google.com/search?ei=hILoXeeGIoGs_Qb1p4ygDg&q=live+stream+NI+RoboRio&oq=live+stream+NI+RoboRio&gs_l=psy-ab.3...22763.25023..25431...0.4..0.306.1392.5j5j0j1......0....1..gws-wiz.......0i71j0i8i7i30j33i10._477hOwIFRo&ved=0ahUKEwjn2KyM0Z3mAhUBVt8KHfUTA-QQ4dUDCAs&uact=5&safe=active&ssui=on
  
- <h2>Ri3D Useful links</h2>
- - Powecell intake method: https://www.youtube.com/watch?v=VPTkv4tlKIY
- - Spinning Wheel method: https://www.youtube.com/watch?v=Oc3DyrPWzas
- - Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q
