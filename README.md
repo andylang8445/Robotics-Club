@@ -11,6 +11,7 @@
  - Introducing speening control panel method: https://www.youtube.com/watch?v=nN2N4pTnovQ<br>
  - Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q<br>
  - Shooting mechanism: https://www.youtube.com/watch?v=VK07v7VBL-g<br>
+ - Shooting and Vision Rundown: https://www.youtube.com/watch?v=xpZr5KfnoTs<br>
  - Shield generator levening method: https://www.youtube.com/watch?v=jFQWt62Wa-0<br>
  - Robot vision: https://www.youtube.com/watch?v=RO8t_V3rXrA<br>
 
