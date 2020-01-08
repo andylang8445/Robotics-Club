@@ -5,6 +5,7 @@
  - Powecell intake method: https://www.youtube.com/watch?v=VPTkv4tlKIY<br>
  - Intake method problems: https://www.youtube.com/watch?v=9sdYtE1zLxY<br>
  - Intake method problem fix: https://www.youtube.com/watch?v=hNr5d4FmT6w<br>
+ - Total ball method: https://www.youtube.com/watch?v=VNC_xW3o9NI<br>
  - Spinning Wheel method: https://www.youtube.com/watch?v=Oc3DyrPWzas<br>
  - Introducing speening control panel method: https://www.youtube.com/watch?v=nN2N4pTnovQ<br>
  - Climbing mechanism: https://www.youtube.com/watch?v=75VkUsUCk2Q<br>
