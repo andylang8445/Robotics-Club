@@ -2,6 +2,7 @@
 <hr>
 
  <h2>Ri3D Useful links</h2>
+ - Sample competition: https://youtu.be/hUvutmXdIWk
  - Powecell intake method: https://www.youtube.com/watch?v=VPTkv4tlKIY<br>
  - Intake method problems: https://www.youtube.com/watch?v=9sdYtE1zLxY<br>
  - Intake method problem fix: https://www.youtube.com/watch?v=hNr5d4FmT6w<br>
